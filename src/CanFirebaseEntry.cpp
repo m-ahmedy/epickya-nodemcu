@@ -34,7 +34,7 @@ boolean CanFirebaseEntry::registerEntry()
 
 boolean CanFirebaseEntry::placePickupOrder()
 {
-  String queryPath = pickUpOrdersPath + "/" + _canRef->getCanId();
+  String queryPath = pickUpOrdersPath + "/" + _canRef->getCanId() + "/status";
   boolean queryResult = Firebase.setString(*_firebaseDataRef, queryPath, "full");
   return handleFirebaseResponse(queryResult, *_firebaseDataRef);
 }

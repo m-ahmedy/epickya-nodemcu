@@ -9,8 +9,8 @@
 #define FIREBASE_HOST "epickya.firebaseio.com/"
 #define FIREBASE_AUTH "4zEUWXGBVviwYzXzTFpphyTAxy1JITy1hg4XSyqb"
 
-#define WIFI_SSID "WE560061"
-#define WIFI_PASSWORD "l2034330"
+#define WIFI_SSID "Arabie"
+#define WIFI_PASSWORD "1410 Islaam"
 
 #define CAN_ID "vFrN5ybyDmrgod7oJwgL"
 #define LOCATION_LATITUDE 0.15478
@@ -18,12 +18,12 @@
 #define LOCATION_ACCURACY NULL
 #define MAX_WEIGHT 20.0
 #define TRASH_TYPE "plastic"
-#define OWNER_USER_ID "testUserId"
+#define OWNER_USER_ID "p7x7nWx9W5h89KttMdBzJhhvzAZ2"
 
 #define ULTRASONIC_TRIG_PIN 16
 #define ULTRASONIC_ECHO_PIN 5
 
-#define INTERVAL_IN_SECONDS 3
+#define INTERVAL_IN_SECONDS 5
 
 class UltrasonicSensor : public CanSensor
 {
