@@ -9,13 +9,12 @@ class Location : public JSONSerializer
 private:
     double _longitude;
     double _latitude;
-    double _accuracy;
 
 public:
     Location();
     ~Location();
 
-    Location(double longitude, double latitude, double accuracy = 0);
+    Location(double longitude, double latitude);
 
     void generateJsonString();
 };

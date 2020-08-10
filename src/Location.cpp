@@ -4,16 +4,14 @@ Location::Location()
 {
     _longitude = 0;
     _latitude = 0;
-    _accuracy = 0;
 }
 
 Location::~Location() {}
 
-Location::Location(double longitude, double latitude, double accuracy)
+Location::Location(double longitude, double latitude)
 {
     _longitude = longitude;
     _latitude = latitude;
-    _accuracy = accuracy;
     generateJsonString();
 }
 
@@ -22,7 +20,6 @@ void Location::generateJsonString()
     FirebaseJson json;
     json.set("latitude", _latitude);
     json.set("longitude", _longitude);
-    json.set("accuracy", _accuracy);
 
     String stringBuffer;
     json.toString(stringBuffer);
