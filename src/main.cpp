@@ -15,7 +15,7 @@
 #define CAN_ID "vFrN5ybyDmrgod7oJwgL"
 #define LOCATION_LATITUDE 30.0457817
 #define LOCATION_LONGITUDE 31.2361217
-#define MAX_WEIGHT 20.0
+#define MAX_WEIGHT 19.5
 #define TRASH_TYPE "Plastic"
 #define OWNER_USER_ID "p7x7nWx9W5h89KttMdBzJhhvzAZ2"
 
